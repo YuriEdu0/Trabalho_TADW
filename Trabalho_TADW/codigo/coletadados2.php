@@ -15,6 +15,7 @@
 
     <input type="text" name="numero" id="numero" placeholder="09-123456789"><br>
     <input type="text" name="cpf" id="cpf" placeholder="123456789-12"><br>
+    <input type="hidden" name="diferenciar" value="2">
     <input type="submit" value="Prosseguir">
 
  

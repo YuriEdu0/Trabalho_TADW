@@ -15,6 +15,7 @@
 
     <input type="text" name="datanasc" id="datanasc" placeholder="27/04/2006"><br>
     <input type="text" name="genero" id="genero" placeholder="Feminino"><br> 
+    <input type="hidden" name="diferenciar" value="3">
     <input type="submit" value="Cadastrar">
 
 
