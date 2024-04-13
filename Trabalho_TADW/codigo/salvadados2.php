@@ -8,3 +8,4 @@ $_SESSION['numero'] = $numero;
 $_SESSION['cpf'] = $cpf;
 
 header('Location: coletadados3.php');
+?>

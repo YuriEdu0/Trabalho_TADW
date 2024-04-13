@@ -16,7 +16,7 @@ services:
       - MARIADB_USER=root
       - MARIADB_ROOT_PASSWORD=123
     ports:
-      - 3307:3306
+      - 8181:80
   adminer:
     image: adminer:4.8.1
     container_name: "adminer_projeto-2b"

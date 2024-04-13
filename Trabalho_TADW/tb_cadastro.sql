@@ -19,10 +19,12 @@ CREATE TABLE `tb_cadastro` (
   `senha` varchar(50) NOT NULL,
   `numero` varchar(12) NOT NULL,
   `cpf` varchar(12) NOT NULL,
-  `datanasc` varchar(50) NOT NULL,
+  `datanasc` date NOT NULL,
   `genero` varchar(50) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+INSERT INTO `tb_cadastro` (`id`, `nome`, `email`, `senha`, `numero`, `cpf`, `datanasc`, `genero`) VALUES
+(1,	'Cleiton',	'da@gmail.com',	'123123',	'62-94875331',	'123123123-79',	'1995-07-19',	'Masculinho');
 
--- 2024-04-13 01:23:34
+-- 2024-04-13 21:04:30
